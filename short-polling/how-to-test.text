@@ -1,0 +1,8 @@
+Steps to test short polling
+1) navigate inside server using "cd short-polling/server"
+2) Run the server using the command "node index.js".
+3) Open another terminal and navigate to ui using "cd short-polling/ui"
+4) Run the react app using "npm run dev"
+5) Notice the "Initital data" displaying in the browser at "http://localhost:5173/"
+6) Now open any client api app like postman and run the POST call "localhost:3000/update?sample=new data"
+7) Go back to the browser and notice the text changes to new text during next poll(polling hapenns every 10sec as specified in setInterval)
