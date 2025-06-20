@@ -1,4 +1,4 @@
-Steps to test short polling
+Steps to test long polling
 1) navigate inside server using "cd long-polling/server"
 2) Run the server using the command "node index.js".
 3) Open another terminal and navigate to ui using "cd long-polling/ui"
