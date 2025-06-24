@@ -1,0 +1,5 @@
+1) Start the server - node index.js
+2) Start the UI - npm run dev
+3) Open the url in multiple tabs
+4) set names in both and start sending messages
+5) message sent in 1 browser will be seen in other.
