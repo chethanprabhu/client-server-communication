@@ -1,0 +1,5 @@
+1) Start the server - node index.js
+2) Start the UI - npm run dev
+3) Open the URL in browser.
+4) Notice network tab for Event source with /sse end point
+5) SSE keeps sending data and it gets updated in UI.
